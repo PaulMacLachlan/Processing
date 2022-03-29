@@ -30,10 +30,10 @@ void draw () {
 
     noStroke();
     fill(255);
-    elipse(x*sin(radians(angle)),0 dia/2, dia/2);
+    ellipse(x*sin(radians(angle)), 0, dia/2, dia/2);
     stroke(255);
     noFill();
-    elipse(0, y, dia, dia);
+    ellipse(0, y, dia, dia);
     popMatrix();
   }
   angle++;
